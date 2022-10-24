@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MenuPrincipal
 {
-    public partial class Form1 : Form
+    public partial class Menu : Form
     {
-        public Form1()
+        public Menu()
         {
             InitializeComponent();
         }
@@ -25,6 +25,21 @@ namespace MenuPrincipal
         private void calculadoraMODToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new CalcMod().Show();
+        }
+
+        private void calculadora10ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new CalcDez().Show();
+        }
+
+        private void calculadoraAssentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new CalcAssentos().Show();
+        }
+
+        private void calculadoraOrigemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new CalcOrigemDestino().Show();
         }
     }
 }

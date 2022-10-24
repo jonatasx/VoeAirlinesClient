@@ -17,6 +17,9 @@ namespace MenuPrincipal
             InitializeComponent();
         }
 
-       
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            txtTotal.Text = (Convert.ToDouble(txtValor.Text) * 1.10).ToString("N");
+        }
     }
 }

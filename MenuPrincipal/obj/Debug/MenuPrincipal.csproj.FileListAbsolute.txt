@@ -3,10 +3,13 @@ C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\bin\Debug\MenuPrinci
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\bin\Debug\MenuPrincipal.pdb
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.csproj.AssemblyReference.cache
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.csproj.SuggestedBindingRedirects.cache
-C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.Form1.resources
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.Properties.Resources.resources
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.csproj.GenerateResource.cache
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.csproj.CoreCompileInputs.cache
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.exe
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.pdb
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.CalcMod.resources
+C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.CalcDez.resources
+C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.Menu.resources
+C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.CalcAssentos.resources
+C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.CalcOrigemDestino.resources

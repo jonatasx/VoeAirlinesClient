@@ -1,6 +1,6 @@
 ﻿namespace MenuPrincipal
 {
-    partial class Form1
+    partial class Menu
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aeronavesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pesquisarWebApiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,6 +36,8 @@
             this.engenhariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraMODToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadora10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculadoraAssentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculadoraOrigemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,7 +78,9 @@
             // 
             this.engenhariaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.calculadoraMODToolStripMenuItem,
-            this.calculadora10ToolStripMenuItem});
+            this.calculadora10ToolStripMenuItem,
+            this.calculadoraAssentosToolStripMenuItem,
+            this.calculadoraOrigemToolStripMenuItem});
             this.engenhariaToolStripMenuItem.Name = "engenhariaToolStripMenuItem";
             this.engenhariaToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
             this.engenhariaToolStripMenuItem.Text = "Engenharia";
@@ -84,17 +88,32 @@
             // calculadoraMODToolStripMenuItem
             // 
             this.calculadoraMODToolStripMenuItem.Name = "calculadoraMODToolStripMenuItem";
-            this.calculadoraMODToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.calculadoraMODToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.calculadoraMODToolStripMenuItem.Text = "Calculadora MOD";
             this.calculadoraMODToolStripMenuItem.Click += new System.EventHandler(this.calculadoraMODToolStripMenuItem_Click);
             // 
             // calculadora10ToolStripMenuItem
             // 
             this.calculadora10ToolStripMenuItem.Name = "calculadora10ToolStripMenuItem";
-            this.calculadora10ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.calculadora10ToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.calculadora10ToolStripMenuItem.Text = "Calculadora 10%";
+            this.calculadora10ToolStripMenuItem.Click += new System.EventHandler(this.calculadora10ToolStripMenuItem_Click);
             // 
-            // Form1
+            // calculadoraAssentosToolStripMenuItem
+            // 
+            this.calculadoraAssentosToolStripMenuItem.Name = "calculadoraAssentosToolStripMenuItem";
+            this.calculadoraAssentosToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.calculadoraAssentosToolStripMenuItem.Text = "Calculadora Assentos";
+            this.calculadoraAssentosToolStripMenuItem.Click += new System.EventHandler(this.calculadoraAssentosToolStripMenuItem_Click);
+            // 
+            // calculadoraOrigemToolStripMenuItem
+            // 
+            this.calculadoraOrigemToolStripMenuItem.Name = "calculadoraOrigemToolStripMenuItem";
+            this.calculadoraOrigemToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.calculadoraOrigemToolStripMenuItem.Text = "Calculadora Origem";
+            this.calculadoraOrigemToolStripMenuItem.Click += new System.EventHandler(this.calculadoraOrigemToolStripMenuItem_Click);
+            // 
+            // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -102,7 +121,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "Menu";
             this.Text = "VoeAirlines Client";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -120,6 +139,8 @@
         private System.Windows.Forms.ToolStripMenuItem engenhariaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculadoraMODToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculadora10ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calculadoraAssentosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calculadoraOrigemToolStripMenuItem;
     }
 }
 
