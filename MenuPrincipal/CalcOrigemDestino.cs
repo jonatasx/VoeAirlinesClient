@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,7 +29,15 @@ namespace MenuPrincipal
             string descricao = txtDescricao.Text;
             TimeSpan qtdeDias = DateTime.Now.Date - dtpDataFabricacao.Value;
             int idadeAeronave = qtdeDias.Days / 365;
-            lblQtdeAnos.Text = idadeAeronave.ToString();
+            if (idadeAeronave > 0)
+            {
+                lblQtdeAnos.Text = idadeAeronave.ToString();
+            }
+            else
+            {
+                lblQtdeAnos.Text = "Aeronave não completou 1 ano";
+            }
+            
             if(idadeAeronave >= 20)
             {
                 lblDestinoAposentadoria.Text = "A Aeronave deve ser aposentada";
@@ -43,3 +51,4 @@ namespace MenuPrincipal
  
     }
 }
+
