@@ -70,6 +70,18 @@
     <Compile Include="CalcOrigemDestino.Designer.cs">
       <DependentUpon>CalcOrigemDestino.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAeronave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAeronave.Designer.cs">
+      <DependentUpon>FrmAeronave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDirigivel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDirigivel.Designer.cs">
+      <DependentUpon>FrmDirigivel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +101,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CalcOrigemDestino.resx">
       <DependentUpon>CalcOrigemDestino.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAeronave.resx">
+      <DependentUpon>FrmAeronave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDirigivel.resx">
+      <DependentUpon>FrmDirigivel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -114,6 +132,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VoeAirlinesClient.Dominio\VoeAirlinesClient.Dominio.csproj">
+      <Project>{98363ECB-13B4-4A3F-872D-9E83A0A5A10D}</Project>
+      <Name>VoeAirlinesClient.Dominio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

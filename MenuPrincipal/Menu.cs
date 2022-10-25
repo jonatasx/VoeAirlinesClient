@@ -41,5 +41,15 @@ namespace MenuPrincipal
         {
             new CalcOrigemDestino().Show();
         }
+
+        private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmAeronave().Show();  
+        }
+
+        private void dirigivelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmDirigivel().Show();
+        }
     }
 }

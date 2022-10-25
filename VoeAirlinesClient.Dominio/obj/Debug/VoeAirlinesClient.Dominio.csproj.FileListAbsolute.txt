@@ -1,0 +1,6 @@
+C:\Users\jonat\source\repos\VoeAirlinesClient\VoeAirlinesClient.Dominio\bin\Debug\VoeAirlinesClient.Dominio.dll
+C:\Users\jonat\source\repos\VoeAirlinesClient\VoeAirlinesClient.Dominio\bin\Debug\VoeAirlinesClient.Dominio.pdb
+C:\Users\jonat\source\repos\VoeAirlinesClient\VoeAirlinesClient.Dominio\obj\Debug\VoeAirlinesClient.Dominio.csproj.AssemblyReference.cache
+C:\Users\jonat\source\repos\VoeAirlinesClient\VoeAirlinesClient.Dominio\obj\Debug\VoeAirlinesClient.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\jonat\source\repos\VoeAirlinesClient\VoeAirlinesClient.Dominio\obj\Debug\VoeAirlinesClient.Dominio.dll
+C:\Users\jonat\source\repos\VoeAirlinesClient\VoeAirlinesClient.Dominio\obj\Debug\VoeAirlinesClient.Dominio.pdb

@@ -13,3 +13,8 @@ C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrinci
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.Menu.resources
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.CalcAssentos.resources
 C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.CalcOrigemDestino.resources
+C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\bin\Debug\VoeAirlinesClient.Dominio.dll
+C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\bin\Debug\VoeAirlinesClient.Dominio.pdb
+C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.FrmAeronave.resources
+C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.csproj.CopyComplete
+C:\Users\jonat\source\repos\VoeAirlinesClient\MenuPrincipal\obj\Debug\MenuPrincipal.FrmDirigivel.resources

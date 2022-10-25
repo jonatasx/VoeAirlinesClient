@@ -28,9 +28,19 @@ namespace MenuPrincipal
             //TimeSpan é uma estrutura top
             string descricao = txtDescricao.Text;
             TimeSpan qtdeDias = DateTime.Now.Date - dtpDataFabricacao.Value;
+     
             int idadeAeronave = qtdeDias.Days / 365;
-            lblQtdeAnos.Text = idadeAeronave.ToString();
-            if(idadeAeronave >= 20)
+            //Lógica do lblQtdeAnos
+            if (idadeAeronave > 0)
+            {
+                lblQtdeAnos.Text = idadeAeronave.ToString();
+            }
+            else
+            {
+                lblQtdeAnos.Text = "Aeronave não completou 1 ano";
+            }
+            //Lógica do Destino Aposentadoria
+            if (idadeAeronave >= 20)
             {
                 lblDestinoAposentadoria.Text = "A Aeronave deve ser aposentada";
             }
@@ -40,6 +50,6 @@ namespace MenuPrincipal
             }
         }
 
- 
+
     }
 }

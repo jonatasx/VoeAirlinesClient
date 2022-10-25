@@ -33,11 +33,13 @@
             this.aeronavesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pesquisarWebApiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.engenhariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraMODToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadora10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraAssentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraOrigemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dirigivelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +58,8 @@
             // 
             this.aeronavesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pesquisarWebApiToolStripMenuItem,
-            this.pToolStripMenuItem});
+            this.pToolStripMenuItem,
+            this.cadastrarToolStripMenuItem});
             this.aeronavesToolStripMenuItem.Name = "aeronavesToolStripMenuItem";
             this.aeronavesToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.aeronavesToolStripMenuItem.Text = "Aeronaves";
@@ -73,6 +76,15 @@
             this.pToolStripMenuItem.Name = "pToolStripMenuItem";
             this.pToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.pToolStripMenuItem.Text = "Pesquisar no BD Local ";
+            // 
+            // cadastrarToolStripMenuItem
+            // 
+            this.cadastrarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dirigivelToolStripMenuItem});
+            this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
+            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.cadastrarToolStripMenuItem.Text = "Cadastrar";
+            this.cadastrarToolStripMenuItem.Click += new System.EventHandler(this.cadastrarToolStripMenuItem_Click);
             // 
             // engenhariaToolStripMenuItem
             // 
@@ -113,6 +125,13 @@
             this.calculadoraOrigemToolStripMenuItem.Text = "Calculadora Origem";
             this.calculadoraOrigemToolStripMenuItem.Click += new System.EventHandler(this.calculadoraOrigemToolStripMenuItem_Click);
             // 
+            // dirigivelToolStripMenuItem
+            // 
+            this.dirigivelToolStripMenuItem.Name = "dirigivelToolStripMenuItem";
+            this.dirigivelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dirigivelToolStripMenuItem.Text = "Dirigivel";
+            this.dirigivelToolStripMenuItem.Click += new System.EventHandler(this.dirigivelToolStripMenuItem_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -141,6 +160,8 @@
         private System.Windows.Forms.ToolStripMenuItem calculadora10ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculadoraAssentosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculadoraOrigemToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dirigivelToolStripMenuItem;
     }
 }
 
