@@ -56,6 +56,7 @@
             this.txtDescricao.Name = "txtDescricao";
             this.txtDescricao.Size = new System.Drawing.Size(461, 190);
             this.txtDescricao.TabIndex = 1;
+           
             // 
             // label1
             // 
